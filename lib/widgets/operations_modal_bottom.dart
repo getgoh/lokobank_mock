@@ -91,7 +91,7 @@ class OperationsModalBottom extends StatelessWidget {
               ),
               trailing: Text(
                 '- \$ ${operation.value}',
-                style: kblueColorTextStyle,
+                style: kblueColorTextStyle.copyWith(fontSize: 18.0),
               ),
             ),
             ListTile(
